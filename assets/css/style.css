@@ -1,0 +1,49 @@
+/* ---Geral--- */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(163, 23, 23);
+}
+
+
+
+.row {
+    margin: 0;
+}
+
+.border {
+    background-color: rgb(59, 2, 2);
+
+}
+
+main {
+    background-color: red;
+}
+
+/* ---Barra de Navegação--- */
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: fixed;
+}
+
+
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+
+/* ---Cards--- */
+
+.card {
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
