@@ -639,8 +639,8 @@ progress {
 .container-xl,
 .container-xxl {
     width: 100%;
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
+    padding-right: var(--bs-gutter-x, 2pc);
+    padding-left: var(--bs-gutter-x, 1pc);
     margin-right: auto;
     margin-left: auto
 }
@@ -4867,7 +4867,6 @@ fieldset:disabled .btn {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem
@@ -4927,7 +4926,7 @@ fieldset:disabled .btn {
 }
 
 .card-header {
-    padding: .5rem 1rem;
+    padding: .5rem 0rem;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, .03);
     border-bottom: 1px solid rgba(0, 0, 0, .125)
@@ -7991,10 +7990,10 @@ fieldset:disabled .btn {
     padding-bottom: 1.5rem !important
 }
 
-.py-5 {
+/* .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important
-}
+} */
 
 .pt-0 {
     padding-top: 0 !important
