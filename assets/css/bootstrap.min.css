@@ -696,7 +696,7 @@ progress {
 }
 
 .row {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: -1.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -1099,7 +1099,7 @@ progress {
 
 .g-3,
 .gx-3 {
-    --bs-gutter-x: 1rem
+    --bs-gutter-x: 3rem
 }
 
 .g-3,
@@ -4901,7 +4901,7 @@ fieldset:disabled .btn {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1rem 1rem
+    padding: 0rem 0rem
 }
 
 .card-title {
