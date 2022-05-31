@@ -1,5 +1,6 @@
 /* ---Geral--- */
 
+
 div#slide {
     padding-bottom: 75%;
     /* 540/720 */
@@ -15,46 +16,29 @@ body {
 }
 
 
-.header-image {
-    background-image: url(/assets/img/Logos/header1.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-}
-
-.image-logo {
-    width: 50%;
-    margin-top: 100px;
-    margin-left: 50px;
-}
 
 .texto1 {
     color: red;
-    font-size: 20px;
-    padding-left: 142px;
-    margin-top: -46px;
+    font-size: 15px;
     font-weight: bold;
 }
-
 
 
 
 .texto2 {
     color: black;
-    font-size: 18px;
-    padding-left: 142px;
-    margin-top: -10px;
+    font-size: 15px;
     font-weight: bold;
 }
-
 
 .container {
     padding-top: 0px;
 }
 
-.h2 {
+h3 {
     top: 10px;
     left: 10px;
+    font-size: 100%;
 }
 
 .text {
@@ -80,17 +64,26 @@ main {
     font-size: (1.75em, 1em + 3vw, 2.5em);
 }
 
-
-/* CASO PRECISE OLHAR PARA FAZER A SEGUNDA IMG FUNFAR
-#image-logo {
-    position: absolute;
-    top: 148px;
-    right: 579px;
-    width: 50%;
-} */
-
+.col-md-8 {
+    max-width: 100%;
+}
 
 /* Image */
+
+
+.header-image {
+    background-image: url(/assets/img/Logos/header1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+
+}
+
+.image-logo {
+    width: 50%;
+    padding: 25px;
+    margin: 20px;
+}
 
 .img-fluid {
     padding-left: 0px;
@@ -144,6 +137,7 @@ main {
 
 
 /* ---Cards--- */
+
 .card:hover {
     cursor: pointer;
 }
@@ -160,13 +154,14 @@ main {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 5px;
-
+    margin-left: -17px;
 
 }
 
 .card-body {
     max-width: 100%;
     max-height: 100%;
+    padding: 0px;
 }
 
 .card-footer {
@@ -183,6 +178,19 @@ main {
     margin-top: 10px;
 }
 
+.card-header-logos {
+    background-color: black;
+    padding: 15px 0px;
+}
+
+.album.py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 1rem !important;
+}
+
+
+.card.border.border-danger {}
+
 /* Botões */
 
 .btn-group {
@@ -197,4 +205,8 @@ main {
 .btn.btn-danger.float-end {
     margin-right: 23px;
     margin-top: 5px;
+}
+
+.btn-sm.btn-danger.float-end {
+    margin-left: -5px;
 }

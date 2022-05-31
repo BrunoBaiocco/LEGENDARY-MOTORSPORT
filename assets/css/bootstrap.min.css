@@ -102,36 +102,27 @@ h1 {
 
 .h2,
 h2 {
-    font-size: calc(1.325rem + .9vw);
-    padding-left: 131px;
-    margin-top: -161px;
-    font-weight: bold;
-
+    font-size: calc(1.325rem + .9vw)
 }
 
 @media (min-width:1200px) {
 
     .h2,
     h2 {
-        font-size: 21px;
-        color: #a30e0e;
+        font-size: 2rem
     }
 }
 
 .h3,
 h3 {
-    font-size: calc(1.3rem + .6vw);
-    margin-top: -13px;
-    padding-left: 132px;
-    font-weight: bold;
+    font-size: calc(1.3rem + .6vw)
 }
 
 @media (min-width:1200px) {
 
     .h3,
     h3 {
-        font-size: 19px;
-        color: black;
+        font-size: 1.75rem
     }
 }
 
@@ -306,7 +297,7 @@ kbd kbd {
 }
 
 figure {
-    margin: 0 0 0rem
+    margin: 0 0 1rem
 }
 
 img,
@@ -648,8 +639,8 @@ progress {
 .container-xl,
 .container-xxl {
     width: 100%;
-    padding-right: var(--bs-gutter-x, 0pc);
-    padding-left: var(--bs-gutter-x, 0pc);
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: auto
 }
@@ -705,7 +696,7 @@ progress {
 }
 
 .row {
-    --bs-gutter-x: -1.5rem;
+    --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -1108,7 +1099,7 @@ progress {
 
 .g-3,
 .gx-3 {
-    --bs-gutter-x: 3rem
+    --bs-gutter-x: 1rem
 }
 
 .g-3,
@@ -4876,6 +4867,7 @@ fieldset:disabled .btn {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
+    background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem
@@ -4910,7 +4902,7 @@ fieldset:disabled .btn {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 0rem 0rem
+    padding: 1rem 1rem
 }
 
 .card-title {
@@ -4935,7 +4927,7 @@ fieldset:disabled .btn {
 }
 
 .card-header {
-    padding: .5rem 0rem;
+    padding: .5rem 1rem;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, .03);
     border-bottom: 1px solid rgba(0, 0, 0, .125)
@@ -7999,10 +7991,10 @@ fieldset:disabled .btn {
     padding-bottom: 1.5rem !important
 }
 
-/* .py-5 {
+.py-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important
-} */
+}
 
 .pt-0 {
     padding-top: 0 !important
