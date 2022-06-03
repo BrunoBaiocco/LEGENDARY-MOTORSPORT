@@ -21,6 +21,8 @@ body {
     color: red;
     font-size: 15px;
     font-weight: bold;
+    width: 50%;
+    padding-left: 50px;
 }
 
 
@@ -29,17 +31,16 @@ body {
     color: black;
     font-size: 15px;
     font-weight: bold;
+    width: 50%;
+    padding-left: 50px;
 }
 
 .container {
     padding-top: 0px;
+    margin-top: -16px;
 }
 
-h3 {
-    top: 10px;
-    left: 10px;
-    font-size: 100%;
-}
+
 
 .text {
     color: white;
@@ -72,17 +73,16 @@ main {
 
 
 .header-image {
-    background-image: url(/assets/img/Logos/header1.webp);
+    background-image: url(../img/Logos/header1.webp);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center center;
-
+    background-position: center;
+    max-width: 100%;
+    padding: 50px;
 }
 
 .image-logo {
     width: 50%;
-    padding: 25px;
-    margin: 20px;
 }
 
 .img-fluid {
@@ -188,9 +188,6 @@ main {
     padding-bottom: 1rem !important;
 }
 
-
-.card.border.border-danger {}
-
 /* Botões */
 
 .btn-group {
@@ -209,4 +206,9 @@ main {
 
 .btn-sm.btn-danger.float-end {
     margin-left: -5px;
+}
+
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 100%;
 }
