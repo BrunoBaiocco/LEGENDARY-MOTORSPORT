@@ -1,6 +1,11 @@
 /* ---Geral--- */
 
 
+.row-cols-md-6>* {
+    flex: 0 0 auto;
+    width: 10.6666666667%;
+}
+
 div#slide {
     padding-bottom: 75%;
     /* 540/720 */
@@ -35,22 +40,17 @@ body {
     padding-left: 50px;
 }
 
-.container {
-    padding-top: 0px;
-    margin-top: -16px;
-}
-
-
 
 .text {
     color: white;
     font-size: 35px;
 }
 
-.border {
+.car-list {
     background-color: rgb(59, 2, 2);
-
 }
+
+
 
 .row {
     margin: 0;
@@ -138,6 +138,14 @@ main {
 
 /* ---Cards--- */
 
+.w-25 {
+    width: 35% !important;
+}
+
+.w-50 {
+    width: 65% !important;
+}
+
 .card:hover {
     cursor: pointer;
 }
@@ -180,7 +188,7 @@ main {
 
 .card-header-logos {
     background-color: black;
-    padding-top: 34px;
+    padding: 10px;
 }
 
 .album.py-5 {
